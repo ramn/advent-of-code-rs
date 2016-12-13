@@ -1,0 +1,7 @@
+[package]
+name = "advent-of-code-rs"
+version = "0.1.0"
+authors = ["ramn <github@rymdimperiet.org>"]
+
+[dependencies]
+md5 = "0.2.1"
