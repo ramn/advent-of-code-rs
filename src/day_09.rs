@@ -44,11 +44,12 @@ pub fn problem_1() -> String {
     out.len().to_string()
 }
 
-// pub fn problem_2() -> String {
-//     "".into()
-// }
+pub fn problem_2() -> String {
+    "".into()
+}
 
 
+#[cfg(test)]
 mod tests {
     use super::*;
 
@@ -58,9 +59,9 @@ mod tests {
         assert_eq!("112830", &answer);
     }
 
-    // #[test]
-    // fn test_problem_2() {
-    //     let answer = problem_2();
-    //     assert_eq!("", &answer);
-    // }
+    #[test]
+    fn test_problem_2() {
+        let answer = problem_2();
+        assert_eq!("", &answer);
+    }
 }
